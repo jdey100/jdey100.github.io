@@ -40,12 +40,14 @@
 			background-color: #000000;
 		}
 		
-		a:hover {
-			color: #4D8924;
-			text-decoration: underline;}
+		
 
 		a:visited {
 			color: #e8cd9fff;}
+
+		a:hover {
+			color: #4D8924;
+			text-decoration: underline;}
 
 		li {
 			display: inline;
@@ -61,5 +63,28 @@
 			background-color: #000000;
 			border-width: 2px
 			}
+		.col {border-style: solid;
+			float: left;
+			width: 30%;
+			padding: 10px;
+			}
+				.clear {
+					clear: left;
+				}
+				.header{
+					background-color: yellow;
+
+				}
+				.footer{
+					background-color: blue;
+
+				}
+				.col1{
+					background-image:url("images/headshot.jpg");
+					height:  800px;
+				}
+				h1{color: orange;}
+				p{color: white;
+					font-size: 18px;}
 
 	
