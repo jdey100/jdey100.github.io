@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <!--google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<!--end google fonts-->
+<!--clock-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title> Janelle Dey </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+    body{
+    background: #C9D6FF;
+    background: -webkit-linear-gradient(to right, #ffffff, #000000);
+    background: linear-gradient(to right, #ffffff, #000000);
+    }
+    </style>
+<!--endclock-->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Janelle Dey</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/flex.css">
+ 
+  <style type="text/css">
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .grid > div {
+      width: 100% ;
+    }
+    @media only screen and (min-device-width: 740px) {
+      .grid {
+        /*max-width: 75%;*/
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(9%, 1fr));
+          grid-template-rows: repeat(auto-fill, minmax(4%, 1fr)  );
+          grid-column-gap: 1rem;
+          grid-row-gap: 1rem;
+          margin-bottom: 1rem;
+      }
+      .grid > div {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: stretch;
+        height: 100%;     
+        /*width: 25%;*/
+        overflow: hidden;
+      }
+
+      .grid > div:hover img {
+        /*transform: translateX(-2px) scale(1.1);*/
+      }
+
+    }
+    .grid img {
+      transform-origin: center;
+      transition: 2s ease all;
+      margin-bottom: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+  </style>
+  
+
+    <style>
+      .banner {background-color: #d3d3d3;}
+      .col {background-color: #000000;
+        color: #ffffff;
+        height: 25%;
+        font-size: 114%;
+        font-family: Eczar;
+      }
+         .col2 {background-color: #000000;
+        color: #ffffff;
+        height: 30%;
+        font-size: 114%;
+        font-family: Eczar;
+      padding: 7.5px;}
+
+       .col3 {background-color: #000000;
+        color: #ffffff;
+        height: 30%;
+        font-size: 114%;
+        font-family: Eczar;
+      padding: 5px;}
+
+      .col6 {background-color: #000000;
+        color: #ffffff;
+        height: 30%;
+        font-size: 114%;
+        font-family: Eczar;
+      padding: 21px;}
+
+        .logo {width: 75%;
+          height: 95%;}
+    </style>
+
+  </head> 
+  <body>
+
+<!--Global pages-->
+     <div class="container-fluid"> 
+      <div class="row">
+      <div class="col-2 col"><a href="high.html">Highlights</a></div>   
+      <div class="col-2 col"><a href="cont.html">Contact</a></div>
+      <div class="col-2 col"><a href="about.html"> About</a></div>
+        <div class="col-2 col"><a href="social.html"> Social media</a>
+    </div>
+    <div class="col-3 "> 
+    </div>
+    <div class="col-1"> <img src="images/jdlogo.png" class="img-fluid logo">
+    </div>
+  </div>
+</div>
+<!--Global pages-->
+
+<!--header-->
+     <div class="container-fluid px-4 text-center"> 
+      <div class="row gx-5">
+      <div class="col col">
+        <div class="p-3">
+ <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+</div></div>   
+      <div class="col col2">
+        <div class="p-3"><a href="tool.html">Tools</a></div></div>
+      <div class="col col2"> 
+        <div class="p-3"><a href="res.html">Resume</a></div></div>
+        <div class="col col2"> 
+          <div class="p-3"><a href="blog.html">Blog</a></div>
+    </div>
+    <div class="col col2">
+      <div class="p-3"><a href="index3.html">Home</a></div> 
+    </div>
+  </div>
+</div>
+<!--header-->
+
+
+<!--tools-->
+<div class="container-fluid px-4 text-center"> 
+      <div class="row gx-5">
+      <div class="col col2">
+        <div class="p-3"><a href="ill.html">Illustrator</a></div></div>   
+      <div class="col col2">
+        <div class="p-3"><a href="photoshop.html">Photoshop</a></div></div>
+      <div class="col col2"> 
+        <div class="p-3"><a href="indesign.html">InDesign</a></div></div>
+        <div class="col col2"> 
+          <div class="p-3"><a href="aftereffects.html">Aftereffects</a></div>
+    </div>
+    <div class="col col2">
+      <div class="p-3"><a href="premierpro.html">PremierPro</a></div> 
+    </div>
+  </div>
+</div>
+
+<!--tools-->
+<!--uneven grid-->
+  <!--uneven grid-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm col3">
+   <img src="images/drop.png">    </div>
+    <div class="col-sm col3">
+   <img
+          src="images/earth.jpg"
+        >    </div>
+    <div class="col-sm col3">
+  <img
+          src="images/water.jpg"
+        >    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm col3">
+   <img
+          src="images/air.jpg"
+        >    </div>
+    <div class="col-sm col3">
+   <img
+          src="images/fire.jpg"
+        >    </div>
+    <div class="col-sm col6">
+  <img class="img-fluid"
+          src="images/jd.png"
+        >    </div>
+  </div>
+</div>
+  <!--clock sub footer-->
+ <div class="container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-5 col">
+      <div class="col-md-3">
+
+<div class="card bg-dark text-white">
+<h3 class="card-title text-center">
+<div class="d-flex flex-wrap justify-content-center mt-2">
+<a><span class="badge hours"></span></a> :
+<a><span class="badge min"></span></a> :
+<a><span class="badge sec"></span></a>
+</div>
+</h3>
+</div>
+</div>
+
+    </div>
+    <div class="col-sm-7 col3">
+      <div class="row">
+        <div class="col-8 col-sm-6 col">
+          Welcome!
+        </div>
+        <div class="col-4 col-sm-6 col">
+        <a href="cont.html">
+          Questions and Comments</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--footer-->
+<div class="footer container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-3 col">
+      <img src="images/insta.png">
+    </div>
+    <div class="col-sm-9 col">
+      <div class="row">
+        <div class="col-8 col-sm-6 col">
+         <a href="site.html">Site Map</a>
+        </div>
+        <div class="col-4 col-sm-6 col">
+          Janelle.Dey@outlook.com
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end footer-->
+
+
+<!--uneven grid-->
+
+
+<!-- Gallery 
+<div class="container-fluid">
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Mountains in the Clouds"
+    />
+
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+</div>
+</div>
+ Gallery -->
+
+
+
+
+
+
+
+
+
+
+
+    <!--reference
+    <div class="container-fluid"> 
+      <div class="row">
+           <div class="col-1"></div>   
+          <div class="col-2"> logo
+        
+        <img src="mark.svg">
+        <img src="images/logo.svg">
+
+      
+
+        </div>
+
+              <div class="col-8"> nav links here</div>
+              <div class="col-1"> 
+          </div>
+        </div>
+
+  <div class="container-fluid">
+          <div class="row">
+
+          <div class="col-1">left nav
+          </div>
+          
+          <div class="col-10 banner">banner here</div>
+          <div class="col-1">side nav here</div>
+  </div>
+
+
+  </div>
+
+-->
+
+<script>
+$(document).ready(function() {
+setInterval( function() {
+var hours = new Date().getHours();
+$(".hours").html(( hours < 10 ? "0" : "" ) + hours);
+}, 1000);
+setInterval( function() {
+var minutes = new Date().getMinutes();
+$(".min").html(( minutes < 10 ? "0" : "" ) + minutes);
+},1000);
+setInterval( function() {
+var seconds = new Date().getSeconds();
+$(".sec").html(( seconds < 10 ? "0" : "" ) + seconds);
+},1000);
+});
+</script>
+    <!--bootstrap javascript - so our code goes above this-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
